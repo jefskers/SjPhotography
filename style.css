@@ -1,0 +1,128 @@
+
+@font-face {
+	font-family: 'geosans';
+	src: url("fonts/GeosansLight-Oblique.ttf");
+}
+
+.wrapper {
+	position: relative;
+	height: 100vh;
+}
+
+.navbar {
+	width: 100vw;
+	z-index: 1;
+	margin: 0;
+	background-color: rgba(118,50,63,.6);
+	position: absolute;
+}
+
+.navbar-brand {
+	font-size: 20px;
+	font-family: 'geosans';
+	color: white;
+}
+
+.navbar-nav {
+	font-family: 'Lucidia Grande';
+	font-size: 18px;
+}
+
+.dropdown-item {
+	font-family: 'geosans';
+}
+
+.navbar-toggler {
+	border: solid grey;
+}
+
+.sliderimg {
+	height: 40px;
+	width: 40px;
+}
+
+.frontpageimg {
+	height: 283.25px;
+	width: 100vw;
+	object-fit: cover;
+}
+
+.carousel-inner {
+	position: relative;
+	top:50%;
+	transform: translateY(-50%);
+	z-index: 0;
+	height: auto;
+	width: 100vw;
+}
+
+#footer {
+	position: absolute;
+	width: 100vw;
+	height: 30px;
+	bottom: 0;
+	text-align: center;
+}
+
+#innerfooter {
+	background-color: rgba(255, 255, 255, .6);
+	height: 27px;
+	display: inline-block;
+}
+
+#footerbtn {
+	height: 24px;
+	width: 24px;
+}
+
+.carousel-indicators {
+	bottom: 30px;
+ }
+
+@media (min-width: 576px) {
+	.carousel-inner {
+	}
+
+	.frontpageimg {
+		height: 400px;
+		object-fit: cover;
+	}
+}
+
+	@media (min-width: 768px) {
+		.navbar-brand {
+			font-size: 26px;
+			font-family: 'geosans';
+		}
+
+		.frontpageimg {
+			height: 100vh;
+			width: auto;
+		}
+
+		.carousel-inner {
+		}
+	}
+
+	@media (min-width: 992px) {
+		.frontpageimg {
+			object-fit: cover;
+			height: 100vh;
+			width: auto;
+		}
+
+		.carousel-inner {
+			margin: 0;
+		}
+	}
+
+	@media (min-width: 1200px) {
+		.frontpageimg {
+			min-height: 100vh;
+			width: 100vw;
+		}
+
+		.carousel-inner {
+			margin: 0;
+		}
+	}

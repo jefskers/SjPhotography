@@ -1,0 +1,21 @@
+﻿
+body html{
+
+
+}
+
+.sliderbtn {
+	height: 30px;
+	width: 30px;
+}
+
+.sliderbox {
+	height:95vh;
+	display:flex;
+}
+
+.sliderimage {
+	height: 100%;
+	width: auto;
+}
+
