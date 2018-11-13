@@ -1,0 +1,54 @@
+﻿
+
+@font-face {
+	font-family: 'geosans';
+	src: url("fonts/GeosansLight-Oblique.ttf");
+}
+
+.navbar {
+	background-color: rgba(118,50,63,.6);
+	width: 100vw;
+	margin: 0;
+}
+
+.navbar-brand {
+	font-family: 'geosans';
+	font-size: 20px;
+	color: white;
+}
+
+.sideview {
+	position: relative;
+	float: right;
+	padding-left: 7px;
+}
+
+.viewbtn {
+	height: 40px;
+	width: 40px;
+}
+
+.foliobox {
+	width: 33.33%;
+}
+
+.folioImage {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+
+}
